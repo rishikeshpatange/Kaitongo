@@ -4,8 +4,8 @@ import Scroll from './Scroll';
 import { IoColorWandOutline } from "react-icons/io5";
 import { FaLinkedin } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
+import { FaBrain } from "react-icons/fa";
 import BigCard from './BigCard';
-// import BigCard from './BigCard';
 
 function Home() {
     return (
@@ -28,7 +28,7 @@ function Home() {
                     <h1 className='thought_leadership_container_title'>Thought Leadership</h1>
 
                 <div className='BigCard_container'>
-                    <span className='bigCard_container_top_box'> <p></p></span>
+                    <span className='bigCard_container_top_box'> <button> <FaBrain style={{marginRight:"10px"}}/> Generate</button></span>
                     <BigCard/>
                     <BigCard/>
            

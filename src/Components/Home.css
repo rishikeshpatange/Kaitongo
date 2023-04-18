@@ -67,8 +67,6 @@
 .BigCard_container{
     display: flex;
     flex-direction: column;
-    /* justify-content:first baseline; */
-    /* align-items: center; */
     justify-content: left;
     width: 90%;
     min-height: 300px;
@@ -79,13 +77,25 @@
     background-color: whites;
 }
 .bigCard_container_top_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--primary-color);
     width: 100%;
     height: 40px;
     color: white;
-    justify-content: left;
-    display: flex;
 }
+.bigCard_container_top_box button{
+    background-color: var(--secondary-color);
+    color: white;
+    height: 40px;
+    width: 140px;
+    border-radius: 5px;
+}
+.bigCard_container_top_box button:hover{
+    background-color: rgb(0, 132, 255);
+}
+
 .bigCard_container_top_box p{
     font-size: 19px;
     margin-left: 20px;
