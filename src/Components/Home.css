@@ -1,0 +1,92 @@
+.Home_container{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 220px;
+    background-color: #F6F8FA;
+}
+
+.Chart_content{
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+
+}
+.Chart_content h1{
+    font-size: 25px;
+    font-weight: 500;
+    background-color: var(--primary-color);
+    color: white;
+    height: 50px;
+    width: 300px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Chart_content p{
+    font-size: 25px;
+    font-weight: 400;
+}
+.sub_title{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 30px;
+    color: white;
+    height: 40px;
+    width: 350px;
+    background-color: var(--secondary-color);
+    border: 2px;
+}
+
+.Ai_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.thought_leadership_container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+}
+.thought_leadership_container_title {
+    left: 0%;
+    position: relative;
+    font-size: 30px;
+    margin-left: -900px;
+    margin-bottom: 20px;
+}
+
+.BigCard_container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content:first baseline; */
+    /* align-items: center; */
+    justify-content: left;
+    width: 90%;
+    min-height: 300px;
+    border: 1px solid #C3C3C3;
+    margin-bottom: 30px;
+    text-align: left;
+    justify-content: left;
+    background-color: whites;
+}
+.bigCard_container_top_box{
+    background-color: var(--primary-color);
+    width: 100%;
+    height: 40px;
+    color: white;
+    justify-content: left;
+    display: flex;
+}
+.bigCard_container_top_box p{
+    font-size: 19px;
+    margin-left: 20px;
+}

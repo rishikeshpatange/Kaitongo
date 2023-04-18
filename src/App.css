@@ -1,38 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 .App {
   text-align: center;
+  font-family: 'Roboto', sans-serif;
 }
+  body {
+  --tooltip-background: rgba(0,5,11,0.9);
+  --tooltip-color: #fff;
+  --tooltip-border-radius: 5px;
+  --tooltip-spacing: 5px;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+  --chart-background: rgb(51, 51, 51);
+  --chart-color: #de1212;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  --chart-handle-fill: #2c343a;
+  --chart-handle-stroke: #67c2e4;
+  --chart-handle-drag-fill: transparent;
+  --chart-handle-dots: #67c2e4;
+  --chart-handle-line: #67c2e4;
+  --primary-color : #031429;
+  --secondary-color : #3B7DBA ;
+  --accent-color : #E46F6E 
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

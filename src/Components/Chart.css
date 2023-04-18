@@ -1,0 +1,51 @@
+.Chart_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.trends {
+  display: flex;
+  margin-left: -1000px;
+  font-size: 25px;
+  font-weight: 500;
+
+  ;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  height: 90%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.box {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+  width: 520px;
+  flex: 1;
+  margin: 0 10px;
+  background: #FFFFFF;
+box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.13);
+  
+}
+.box3{
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+  width: 1060px;
+  flex: 1;
+  margin: 0 10px;
+  margin-bottom: 15px;
+  background: #FFFFFF;
+box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.13);
+}

@@ -1,0 +1,35 @@
+
+.news-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 4px;
+    overflow: hidden;
+    padding: 16px;
+  }
+  
+  .news-card-image {
+    flex: 0 0 auto;
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    margin-right: 16px;
+  }
+  
+  .news-card-content {
+    flex: 1 1 auto;
+  }
+  
+  .news-card-title {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .news-card-subtitle {
+    font-size: 14px;
+    margin: 8px 0 0;
+  }
+  
